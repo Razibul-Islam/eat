@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins',sans-serif;
+}
+.top-sec{
+    display: flex;
+    padding-top: 150px;
+    
+}
+.half-width{
+    width: 50%;
+    padding-left: 80px;
+}
+.half-width img{
+    width: 90%;
+}
+.top-h1{
+    font-size: 60px;
+    color: rgb(138, 135, 138);
+}
+span{
+    color: orange
+}
+p{
+    color: rgb(138, 135, 138);
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+    background: rgb(251, 41, 58);
+    padding: 15px 40px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.about{
+    background: url(./images/7.png);
+    background-repeat: no-repeat;
+    background-position: calc();
+}
+.about-img img{
+    width: 43.5%;
+}
+.about-text h1{
+    font-size: 40px;
+    color: rgb(138, 135, 138);
+    padding-bottom: 20px;
+}
+.about-text p{
+    padding-bottom: 90px;
+}
+.recipie h1{
+    text-align: center;
+    font-size: 45px;
+    padding-bottom: 35px;
+    color: rgb(138, 135, 138);
+}
+.recipie p{
+    text-align: center;
+    line-height: 10px;
+    font-weight: 100;
+    color: rgb(87, 82, 82);
+}
+.dish{
+    display: flex;
+}
+.ricipie-1{
+    margin-top: 50px;
+    width: 40%;
+    padding: 2%;
+    box-shadow: 5px 5px 50px rgb(217, 211, 211);
+    margin-left: 5%;
+    border-radius: 15px;
+}
+.ricipie-1 img{
+    width: 100%;
+}
+.ricipie-1 h1{
+    text-align: left;
+    color: #000;
+    font-size: 30px;
+}
+.ricipie-1 p{
+    text-align: left;
+    color: #000;
+    line-height: 25px;
+}
+.fsf{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+    box-shadow: 5px 5px 50px rgb(217, 211, 211);
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.fsf div h1{
+    font-size: 50px;
+}
+footer{
+    background: #000;
+    padding-top: 50px;
+    padding-bottom: 120px;
+    margin-top: 70px;
+}
+footer h1{
+    text-align: center;
+    color: tomato;
+}
+footer p{
+    text-align: center;
+    font-weight: 100;
+    color: rgb(236, 229, 229);
+    padding-top: 20px;
+}
